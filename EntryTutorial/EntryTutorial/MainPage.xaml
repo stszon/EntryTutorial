@@ -3,6 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="EntryTutorial.MainPage">
     <StackLayout Margin="20,35,20,20">
-        <Entry Placeholder="Enter text" />
+        <Entry Placeholder="Enter text"
+       TextChanged="OnEntryTextChanged"
+       Completed="OnEntryCompleted" />
     </StackLayout>
 </ContentPage>
